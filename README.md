@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/biowess/genetinav/docs/genetinav.png" alt="genetinav">
+  <img src="https://github.com/biowess/genetinav/blob/main/docs/genetinav.png" alt="genetinav">
 </p>
 
 A terminal-based genomics toolkit for gene lookup, DNA sequence exploration, and genomic coordinate navigation.  
