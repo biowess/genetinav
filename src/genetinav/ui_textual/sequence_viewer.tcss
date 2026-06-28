@@ -1,0 +1,142 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   sequence_viewer.tcss — GenetiNav Sequence Viewer stylesheet
+   ═══════════════════════════════════════════════════════════════════════════
+
+   Color palette (IGV / dark-terminal convention — used as static defaults;
+   per-theme palette is applied dynamically via Python widget reactives):
+     --nuc-a:      #3a9e4d   IGV green
+     --nuc-t:      #d94f4f   IGV red
+     --nuc-g:      #e07c2a   orange (replaces black for dark-bg visibility)
+     --nuc-c:      #4a7fd4   IGV blue
+     --nuc-n:      #666666   grey
+     --mismatch:   #5a1a5a   inverse-video purple (WCAG contrast checked)
+     --accent:     #7ab3e0   viewport / highlight blue
+     --surface-1:  #0e1117   outermost background
+     --surface-2:  #161b24   card background
+     --surface-3:  #1e2635   panel / rule background
+     --border-dim: #2a3448   subtle border
+     --border-hi:  #3d5278   highlighted border
+
+   All text colours are contrast-checked against surface-2 background.
+*/
+
+/* ── Outer layout ─────────────────────────────────────────────────────────── */
+
+#viewer-layout {
+    width: 100%;
+    height: 1fr;
+    /* Compact padding */
+    padding: 1 2;
+    align: center middle;
+}
+
+/* ── Main card ────────────────────────────────────────────────────────────── */
+
+#viewer-card {
+    width: 100%;
+    max-width: 180;
+    height: auto;
+    border-title-style: bold;
+    border-title-align: left;
+    padding: 0 1;
+}
+
+/* ── Header row ───────────────────────────────────────────────────────────── */
+
+#card-header {
+    height: 1;
+    margin-bottom: 0;
+    background: transparent;
+    layout: horizontal;
+}
+
+#gene-title {
+    width: 1fr;
+    text-style: bold;
+    content-align: left middle;
+}
+
+#match-counter {
+    width: auto;
+    color: #e07c2a;
+    text-style: bold;
+    content-align: right middle;
+    padding-left: 2;
+}
+
+/* ── Rules / separators ───────────────────────────────────────────────────── */
+
+.viewer-rule {
+    margin: 0;
+}
+
+/* ── Track panels ─────────────────────────────────────────────────────────── */
+
+#ruler-panel {
+    width: 100%;
+    height: 2;
+    background: transparent;
+    border: none;
+    border-title-color: #3d5278;
+    border-title-style: dim;
+}
+
+#seq-track-panel {
+    width: 100%;
+    height: auto;
+    background: transparent;
+    border: none;
+}
+
+#gc-track-panel {
+    width: 100%;
+    height: 1;
+    background: transparent;
+    border: none;
+}
+
+/* ── Legend strip ─────────────────────────────────────────────────────────── */
+
+#legend-strip {
+    width: 100%;
+    height: 1;
+}
+
+/* ── Stats row ────────────────────────────────────────────────────────────── */
+
+#stats-row {
+    width: 100%;
+    height: 1;
+    border: none;
+    margin-top: 0;
+}
+
+/* ── Bottom navigation Footer ─────────────────────────────────────────────── */
+
+Footer {
+    dock: bottom;
+    height: 1;
+}
+
+/* ── Input modal ──────────────────────────────────────────────────────────── */
+
+#viewer-modal {
+    align: center middle;
+    background: #0e1117 70%;
+}
+
+#viewer-modal-body {
+    width: 60;
+    height: auto;
+    padding: 1 2;
+}
+
+#viewer-modal-label {
+    margin-bottom: 1;
+}
+
+#viewer-modal-input {
+}
+
+#viewer-modal-input:focus {
+}
