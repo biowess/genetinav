@@ -1,4 +1,3 @@
-```markdown
 # GenetiNav
 
 A terminal-based genomics toolkit for gene lookup, DNA sequence exploration, and genomic coordinate navigation.  
@@ -249,4 +248,3 @@ You may view, clone, run, and modify this software for personal or educational u
 Gene and sequence data courtesy of the Ensembl project.  
 Built with Textual and Typer by Textualize.  
 Nucleotide colour convention inspired by IGV and the UCSC Genome Browser.
-```
