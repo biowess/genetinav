@@ -1,14 +1,15 @@
 <p align="center">
   <img src="https://github.com/biowess/genetinav/blob/main/docs/genetinav.png" alt="genetinav" width="400">
-</p>
 
-A terminal-based genomics toolkit for gene lookup, DNA sequence exploration, and genomic coordinate navigation.  
-Built with Textual and Typer, powered by the public Ensembl REST API.
+_A terminal-based genomics toolkit for gene lookup, DNA sequence exploration, and genomic coordinate navigation.  
+Built with Textual and Typer, powered by the public Ensembl REST API._
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat)](https://www.python.org/)
 [![Textual](https://img.shields.io/badge/Textual-0.49.0+-brightgreen?style=flat)](https://textual.textualize.io/)
 [![Typer](https://img.shields.io/badge/Typer-0.12+-orange?style=flat)](https://typer.tiangolo.com/)
 [![License](https://img.shields.io/badge/License-Custom%20Source--Available%201.0-lightgrey?style=flat)](LICENSE)
+
+</p>
 
 Type a gene symbol to retrieve its metadata, then drop into a colour-coded, scrollable sequence viewer with motif search, reverse-complement display, and live gene-boundary detection — all from your terminal.
 
